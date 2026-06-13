@@ -76,10 +76,12 @@ app.put('/api/donations/:id', async (req, res) => {
   }
 });
 
-// 5. Serve React Build (Handles local production test fallback)
-app.use(express.static(path.join(__dirname, '../client/build')));
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+// 5. Serve React Build (Handles production routing properly)
+app.use(express.static(path.join(__dirname, './client/build')));
+
+// API routes ko chhodkar baki saari requests React Frontend par bhejein
+app.get(/^(?!\/api).*$/, (req, res) => {
+  res.sendFile(path.join(__dirname, './client/build', 'index.html'));
 });
 
 // FIX FOR VERCEL SERVERLESS BUILD: Port listener toggles off during deployment functions

@@ -19,24 +19,9 @@
       "destination": "server.js"
     },
     {
-      "source": "/static/(.*)",
-      "destination": "client/static/$1"
-    },
-    {
-      "source": "/manifest.json",
-      "destination": "client/manifest.json"
-    },
-    {
-      "source": "/favicon.ico",
-      "destination": "client/favicon.ico"
-    },
-    {
-      "source": "/logo192.png",
-      "destination": "client/logo192.png"
-    },
-    {
-      "source": "/logo512.png",
-      "destination": "client/logo512.png"
+      "source": "/(.*)",
+      "destination": "client/$1",
+      "check": true
     },
     {
       "source": "/(.*)",
