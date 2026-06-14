@@ -137,7 +137,7 @@ function App() {
             <span className="text-3xl">💜</span>
             <div>
               <h1 className="text-2xl font-black tracking-tight text-emerald-700">Share With Heart</h1>
-              <p className="text-xs text-slate-400 uppercase tracking-widest font-bold">Unified Mentor Platform</p>
+              <p className="text-xs text-slate-400 uppercase tracking-widest font-bold">Donation & Reuse Platform for Clothes and Household Items</p>
             </div>
           </div>
           <div className="flex gap-2 bg-slate-100 p-1 rounded-xl border border-slate-200">
