@@ -8,7 +8,7 @@ Developed as a core deliverable for the **Unified Mentor Internship Program**.
 
 ## 🚀 Live Production Link
 Click the link below to access the deployed application:
-👉 **[Live Project Demo](https://share-with-heart-ni76idvk2-saloni-barodiya-s-projects.vercel.app)**(https://share-with-heart-ni76idvk2-saloni-barodiya-s-projects.vercel.app)
+👉 **[Live Project Demo](https://share-with-heart-ni76idvk2-saloni-barodiya-s-projects.vercel.app)**  (https://share-with-heart-ni76idvk2-saloni-barodiya-s-projects.vercel.app)
 
 ---
 
